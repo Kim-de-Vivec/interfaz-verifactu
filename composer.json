@@ -1,0 +1,26 @@
+{
+    "name": "mi-empresa/verifactu-project",
+    "description": "Proyecto de implementación VeriFactu con PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Desarrollador VeriFactu",
+            "email": "developer@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "josemmo/verifactu-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

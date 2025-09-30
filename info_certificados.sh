@@ -1,0 +1,55 @@
+#!/bin/bash
+# Información completa sobre certificados FNMT para VeriFactu
+
+echo "🔐 GUÍA COMPLETA: CERTIFICADOS FNMT PARA VERIFACTU"
+echo "=============================================="
+echo ""
+
+echo "📋 PROCESO COMPLETO PASO A PASO:"
+echo ""
+
+echo "1️⃣  SOLICITUD ONLINE (5 minutos)"
+echo "   🌐 URL: https://www.sede.fnmt.gob.es/certificados/persona-fisica"
+echo "   📝 Datos necesarios:"
+echo "      - DNI/NIE válido"
+echo "      - Email activo"
+echo "      - Teléfono móvil"
+echo "   ⚠️  IMPORTANTE: No cerrar el navegador hasta completar todo"
+echo ""
+
+echo "2️⃣  ACREDITACIÓN PRESENCIAL (15 minutos)"
+echo "   📄 Documentos a llevar:"
+echo "      - DNI/NIE original (no vale copia)"
+echo "      - Código de solicitud (del email)"
+echo "   🏢 Lugares disponibles:"
+echo "      - Oficinas FNMT"
+echo "      - Oficinas de Correos"
+echo "      - Algunas administraciones locales"
+echo ""
+
+echo "3️⃣  DESCARGA DEL CERTIFICADO (2-3 días después)"
+echo "   ⏰ Plazo: 24-72 horas después de la acreditación"
+echo "   💻 CRÍTICO: Usar el MISMO navegador de la solicitud inicial"
+echo "   🔑 Crear contraseña SEGURA para el certificado"
+echo "   💾 Guardar archivo .pfx en: certificates/fnmt-test.pfx"
+echo ""
+
+echo "💡 CONSEJOS DE SEGURIDAD:"
+echo "   🔒 Usar contraseña fuerte (mín 12 caracteres)"
+echo "   💾 Hacer backup del certificado"
+echo "   📅 Anotar fecha de caducidad (4 años)"
+echo "   🚫 NUNCA subir certificado a repositorios públicos"
+echo ""
+
+echo "🧪 TESTING EN VERIFACTU:"
+echo "   Una vez obtenido el certificado:"
+echo "   1. Guardarlo como: certificates/fnmt-test.pfx"
+echo "   2. Actualizar .env con la contraseña"
+echo "   3. Ejecutar: php tests/test_instalacion.php"
+echo ""
+
+echo "📞 CONTACTO FNMT:"
+echo "   📧 Email: info@fnmt.es"
+echo "   📱 Teléfono: 902 363 467"
+echo "   🕐 Horario: L-V 8:30-15:00h"
+echo ""
