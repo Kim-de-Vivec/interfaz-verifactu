@@ -7,7 +7,6 @@ Proyecto generado automáticamente el $(date)
 - ✅ Configuración base
 - ✅ Dependencias instaladas
 - ⏳ Pendiente: configurar .env
-- ⏳ Pendiente: obtener certificado FNMT
 
 ## Próximos pasos
 
@@ -52,5 +51,4 @@ mi-proyecto-verifactu/
 - 🔗 [Librería josemmo/verifactu-php](https://packagist.org/packages/josemmo/verifactu-php)
 - 🏛️ [Documentación oficial VeriFactu](https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu.html)
 
----
-*Generado automáticamente por el instalador VeriFactu PHP*
+

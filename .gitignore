@@ -1,0 +1,54 @@
+# Certificados y claves privadas
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+certificates/*.pfx
+certificates/*.p12
+certificates/*.key
+certificates/*.pem
+certificates/*.crt
+
+# Archivos de configuración con datos sensibles
+config/*_real.php
+config/*_production.php
+*_credentials.php
+
+# Logs y archivos temporales
+logs/*.log
+logs/*.json
+logs/primera-factura.json
+temp/
+*.tmp
+*.log
+
+# Dependencias de Composer
+vendor/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+
+# Archivos de test con datos reales
+*_real_test.php
+test_production_*
